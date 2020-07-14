@@ -1,0 +1,182 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Admin\\Homebook.Admin.csproj": {}
+  },
+  "projects": {
+    "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Admin\\Homebook.Admin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Admin\\Homebook.Admin.csproj",
+        "projectName": "Homebook.Admin",
+        "projectPath": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Admin\\Homebook.Admin.csproj",
+        "packagesPath": "C:\\Users\\mravka\\.nuget\\packages\\",
+        "outputPath": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Admin\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mravka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj": {
+                "projectPath": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Refit.HttpClientFactory": {
+              "target": "Package",
+              "version": "[5.1.67, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj",
+        "projectName": "Homebook",
+        "projectPath": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj",
+        "packagesPath": "C:\\Users\\mravka\\.nuget\\packages\\",
+        "outputPath": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mravka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AspNetCore.HealthChecks.Rabbitmq": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "HangFire.Core": {
+              "target": "Package",
+              "version": "[1.7.11, )"
+            },
+            "HangFire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.11, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.11, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

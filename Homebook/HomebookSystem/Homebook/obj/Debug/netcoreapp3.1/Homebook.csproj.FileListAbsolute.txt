@@ -1,0 +1,9 @@
+C:\Users\mravka\source\repos\Homebook\HomebookSystem\Homebook\bin\Debug\netcoreapp3.1\Homebook.deps.json
+C:\Users\mravka\source\repos\Homebook\HomebookSystem\Homebook\bin\Debug\netcoreapp3.1\Homebook.dll
+C:\Users\mravka\source\repos\Homebook\HomebookSystem\Homebook\bin\Debug\netcoreapp3.1\Homebook.pdb
+C:\Users\mravka\source\repos\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.csprojAssemblyReference.cache
+C:\Users\mravka\source\repos\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.AssemblyInfoInputs.cache
+C:\Users\mravka\source\repos\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.AssemblyInfo.cs
+C:\Users\mravka\source\repos\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.csproj.CoreCompileInputs.cache
+C:\Users\mravka\source\repos\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.dll
+C:\Users\mravka\source\repos\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.pdb
