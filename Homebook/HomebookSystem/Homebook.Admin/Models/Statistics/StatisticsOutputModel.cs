@@ -7,6 +7,8 @@ namespace Homebook.Admin.Models.Statistics
 {
     public class StatisticsOutputModel
     {
-        
+        public int TotalLikes { get; set; }
+
+        public int TotalPosts { get; set; }
     }
 }

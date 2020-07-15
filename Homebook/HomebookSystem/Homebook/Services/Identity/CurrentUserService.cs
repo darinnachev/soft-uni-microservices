@@ -13,6 +13,8 @@ namespace Homebook.Services.Identity
         {
             this.user = httpContextAccessor.HttpContext?.User;
 
+            var a = this.user.IsAdministrator();
+
             if (user == null)
             {
                 throw new InvalidOperationException("This request does not have an authenticated user.");

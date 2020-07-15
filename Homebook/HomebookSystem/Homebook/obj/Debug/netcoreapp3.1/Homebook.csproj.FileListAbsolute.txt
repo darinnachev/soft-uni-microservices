@@ -7,3 +7,12 @@ C:\Users\mravka\source\repos\Homebook\HomebookSystem\Homebook\obj\Debug\netcorea
 C:\Users\mravka\source\repos\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.csproj.CoreCompileInputs.cache
 C:\Users\mravka\source\repos\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.dll
 C:\Users\mravka\source\repos\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.pdb
+D:\Soft Uni\Repos\soft-uni-microservices\Homebook\HomebookSystem\Homebook\bin\Debug\netcoreapp3.1\Homebook.deps.json
+D:\Soft Uni\Repos\soft-uni-microservices\Homebook\HomebookSystem\Homebook\bin\Debug\netcoreapp3.1\Homebook.dll
+D:\Soft Uni\Repos\soft-uni-microservices\Homebook\HomebookSystem\Homebook\bin\Debug\netcoreapp3.1\Homebook.pdb
+D:\Soft Uni\Repos\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.csprojAssemblyReference.cache
+D:\Soft Uni\Repos\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.AssemblyInfoInputs.cache
+D:\Soft Uni\Repos\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.AssemblyInfo.cs
+D:\Soft Uni\Repos\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.csproj.CoreCompileInputs.cache
+D:\Soft Uni\Repos\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.dll
+D:\Soft Uni\Repos\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.pdb
