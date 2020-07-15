@@ -16,3 +16,12 @@ D:\Soft Uni\Repos\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\De
 D:\Soft Uni\Repos\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.csproj.CoreCompileInputs.cache
 D:\Soft Uni\Repos\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.dll
 D:\Soft Uni\Repos\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.pdb
+C:\Users\darin.nachev\source\repos\darinnachev\soft-uni-microservices\Homebook\HomebookSystem\Homebook\bin\Debug\netcoreapp3.1\Homebook.deps.json
+C:\Users\darin.nachev\source\repos\darinnachev\soft-uni-microservices\Homebook\HomebookSystem\Homebook\bin\Debug\netcoreapp3.1\Homebook.dll
+C:\Users\darin.nachev\source\repos\darinnachev\soft-uni-microservices\Homebook\HomebookSystem\Homebook\bin\Debug\netcoreapp3.1\Homebook.pdb
+C:\Users\darin.nachev\source\repos\darinnachev\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.csprojAssemblyReference.cache
+C:\Users\darin.nachev\source\repos\darinnachev\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.AssemblyInfoInputs.cache
+C:\Users\darin.nachev\source\repos\darinnachev\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.AssemblyInfo.cs
+C:\Users\darin.nachev\source\repos\darinnachev\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.csproj.CoreCompileInputs.cache
+C:\Users\darin.nachev\source\repos\darinnachev\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.dll
+C:\Users\darin.nachev\source\repos\darinnachev\soft-uni-microservices\Homebook\HomebookSystem\Homebook\obj\Debug\netcoreapp3.1\Homebook.pdb

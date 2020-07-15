@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homebook.Admin", "Homebook.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homebook.Identity", "Homebook.Identity\Homebook.Identity.csproj", "{7E3006AA-9AF3-41BF-93B1-EB16504B25BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homebook.Statistics", "Homebook.Statistics\Homebook.Statistics.csproj", "{186E13DB-6C88-456A-97CA-9F2E4778D85F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homebook.Statistics", "Homebook.Statistics\Homebook.Statistics.csproj", "{186E13DB-6C88-456A-97CA-9F2E4778D85F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homebook.Posts", "Homebook.Posts\Homebook.Posts.csproj", "{832C1F07-C135-4A00-9DAC-DBF72C7C475C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homebook.Posts", "Homebook.Posts\Homebook.Posts.csproj", "{832C1F07-C135-4A00-9DAC-DBF72C7C475C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homebook.Likes", "Homebook.Likes\Homebook.Likes.csproj", "{C4D23C70-8AC6-4114-8860-67583C3EFA74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homebook.Friends", "Homebook.Friends\Homebook.Friends.csproj", "{D9BD13A7-6351-498E-8E3D-53296D410945}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{832C1F07-C135-4A00-9DAC-DBF72C7C475C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{832C1F07-C135-4A00-9DAC-DBF72C7C475C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{832C1F07-C135-4A00-9DAC-DBF72C7C475C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D23C70-8AC6-4114-8860-67583C3EFA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D23C70-8AC6-4114-8860-67583C3EFA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D23C70-8AC6-4114-8860-67583C3EFA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D23C70-8AC6-4114-8860-67583C3EFA74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9BD13A7-6351-498E-8E3D-53296D410945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BD13A7-6351-498E-8E3D-53296D410945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BD13A7-6351-498E-8E3D-53296D410945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BD13A7-6351-498E-8E3D-53296D410945}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -39,7 +39,17 @@ namespace Homebook.Posts.Controllers
 
             await this.posts.Save(post);
 
+            // todo send message
+
             return post.Id;
         }
+
+        [HttpGet]
+        [Authorize]
+        public async Task<IEnumerable<PostDetailsOutputModel>> GetPostByUserId()
+        {
+            return await posts.GetAllPostsByUserId(this.currentUser.UserId);
+        }
+
     }
 }

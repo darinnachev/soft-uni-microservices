@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Homebook",
+    "\\Homebook\\HomebookSystem"
   ],
+  "SelectedNode": "\\Homebook\\HomebookSystem\\HomebookSystem.sln",
   "PreviewInSolutionExplorer": false
 }
