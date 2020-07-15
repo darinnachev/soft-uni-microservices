@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Homebook.Statistics.Services.Statistics;
+using Homebook.Statistics.Messages;
 
 namespace Homebook.Statistics
 {
@@ -24,11 +25,10 @@ namespace Homebook.Statistics
            => services
                .AddWebService<StatisticsDbContext>(this.Configuration)
                .AddTransient<IDataSeeder, StatisticsDataSeeder>()
-               .AddTransient<IStatisticsService, StatisticsService>();
-
-               //.AddMessaging(
-               //    this.Configuration,
-               //    typeof(CarAdCreatedConsumer));
+               .AddTransient<IStatisticsService, StatisticsService>()
+               .AddMessaging(
+                   this.Configuration,
+                   typeof(PostCreateConsumer));
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
             => app

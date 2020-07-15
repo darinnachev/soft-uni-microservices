@@ -43,10 +43,10 @@ namespace Homebook.Likes.Controllers
 
         [HttpGet]
         [Authorize]
-        [Route("PostId")]
-        public async Task<GetLikesByPostModel> GetPostByUserId(int PostId)
+        [Route(Id)]
+        public async Task<GetLikesByPostModel> GetLikesByPostId(int Id)
         {
-            return await likes.GetLikesByPostId(PostId);
+            return await likes.GetLikesByPostId(Id);
         }
 
     }

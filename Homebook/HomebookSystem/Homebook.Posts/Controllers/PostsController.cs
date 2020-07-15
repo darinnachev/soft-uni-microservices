@@ -10,6 +10,8 @@ using Homebook.Controllers;
 using Homebook.Posts.Models.Posts;
 using Homebook.Posts.Data.Models;
 using Homebook.Posts.Services.Posts;
+using Homebook.Messages;
+using MassTransit;
 
 namespace Homebook.Posts.Controllers
 {
@@ -17,13 +19,16 @@ namespace Homebook.Posts.Controllers
     {
         private readonly IPostsService posts;
         private readonly ICurrentUserService currentUser;
+        private readonly IBus publisher;
 
         public PostsController(
             IPostsService posts,
-            ICurrentUserService currentUser)
+            ICurrentUserService currentUser,
+            IBus publisher)
         {
             this.posts = posts;
             this.currentUser = currentUser;
+            this.publisher = publisher;
         }
 
         [HttpPost]
@@ -39,16 +44,26 @@ namespace Homebook.Posts.Controllers
 
             await this.posts.Save(post);
 
-            // todo send message
+            var messageData = new PostCreateMessageModel()
+            {
+                UserId = this.currentUser.UserId,
+                Title = input.Title
+            };
+
+            await publisher.Publish(messageData);
 
             return post.Id;
         }
 
         [HttpGet]
         [Authorize]
-        public async Task<IEnumerable<PostDetailsOutputModel>> GetPostByUserId()
+        [Route("{UserId?}")]
+        public async Task<IEnumerable<PostDetailsOutputModel>> GetPostByUserId(string UserId)
         {
-            return await posts.GetAllPostsByUserId(this.currentUser.UserId);
+            if (string.IsNullOrEmpty(UserId))
+                UserId = this.currentUser.UserId;
+
+            return await posts.GetAllPostsByUserId(UserId);
         }
 
     }

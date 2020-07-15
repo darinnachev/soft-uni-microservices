@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Homebook.Data;
+using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 namespace Homebook.Posts.Data
 {
-    public class PostsDbContext : DbContext
+    public class PostsDbContext : MessageDbContext
     {
         public PostsDbContext(DbContextOptions<PostsDbContext> options)
             : base(options)
@@ -12,11 +13,7 @@ namespace Homebook.Posts.Data
 
         public DbSet<Homebook.Posts.Data.Models.Post> Posts { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        protected override Assembly ConfigurationsAssembly => Assembly.GetExecutingAssembly();
 
-            base.OnModelCreating(builder);
-        }
     }
 }

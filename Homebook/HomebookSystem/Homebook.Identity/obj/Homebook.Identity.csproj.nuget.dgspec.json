@@ -1,38 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\darin.nachev\\source\\repos\\darinnachev\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Identity\\Homebook.Identity.csproj": {}
+    "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Identity\\Homebook.Identity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\darin.nachev\\source\\repos\\darinnachev\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Identity\\Homebook.Identity.csproj": {
+    "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Identity\\Homebook.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\darin.nachev\\source\\repos\\darinnachev\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Identity\\Homebook.Identity.csproj",
+        "projectUniqueName": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Identity\\Homebook.Identity.csproj",
         "projectName": "Homebook.Identity",
-        "projectPath": "C:\\Users\\darin.nachev\\source\\repos\\darinnachev\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Identity\\Homebook.Identity.csproj",
-        "packagesPath": "C:\\Users\\darin.nachev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\darin.nachev\\source\\repos\\darinnachev\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Identity\\obj\\",
+        "projectPath": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Identity\\Homebook.Identity.csproj",
+        "packagesPath": "C:\\Users\\mravka\\.nuget\\packages\\",
+        "outputPath": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\darin.nachev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mravka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://d-devops:81/nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\darin.nachev\\source\\repos\\darinnachev\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj": {
-                "projectPath": "C:\\Users\\darin.nachev\\source\\repos\\darinnachev\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj"
+              "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj": {
+                "projectPath": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj"
               }
             }
           }
@@ -89,28 +87,26 @@
         }
       }
     },
-    "C:\\Users\\darin.nachev\\source\\repos\\darinnachev\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj": {
+    "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\darin.nachev\\source\\repos\\darinnachev\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj",
+        "projectUniqueName": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj",
         "projectName": "Homebook",
-        "projectPath": "C:\\Users\\darin.nachev\\source\\repos\\darinnachev\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj",
-        "packagesPath": "C:\\Users\\darin.nachev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\darin.nachev\\source\\repos\\darinnachev\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\obj\\",
+        "projectPath": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\Homebook.csproj",
+        "packagesPath": "C:\\Users\\mravka\\.nuget\\packages\\",
+        "outputPath": "D:\\Soft Uni\\Repos\\soft-uni-microservices\\Homebook\\HomebookSystem\\Homebook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\darin.nachev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mravka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://d-devops:81/nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

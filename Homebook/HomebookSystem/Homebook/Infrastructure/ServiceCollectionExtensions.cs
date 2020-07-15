@@ -134,10 +134,10 @@ namespace Homebook.Infrastructure
 
                     mt.AddBus(context => Bus.Factory.CreateUsingRabbitMq(rmq =>
                     {
-                        rmq.Host("rabbitmq", host =>
+                        rmq.Host("localhost", host =>
                         {
-                            host.Username("rabbitmq");
-                            host.Password("rabbitmq");
+                            host.Username("guest");
+                            host.Password("guest");
                         });
 
                         rmq.UseHealthCheck(context);
@@ -162,7 +162,7 @@ namespace Homebook.Infrastructure
 
             services.AddHangfireServer();
 
-            services.AddHostedService<MessagesHostedService>();
+           // services.AddHostedService<MessagesHostedService>();
 
             return services;
         }

@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using Homebook.Messages;
 using Homebook.Posts.Data;
 using Homebook.Posts.Models.Posts;
 using Homebook.Services;
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +14,14 @@ namespace Homebook.Posts.Services.Posts
     public class PostsService : DataService<Homebook.Posts.Data.Models.Post>, IPostsService
     {
         private readonly IMapper mapper;
+        
 
         public PostsService(PostsDbContext db, IMapper mapper)
             : base(db)
-            => this.mapper = mapper;
+        {
+            this.mapper = mapper;
+           
+        }
 
         public async Task<IEnumerable<PostDetailsOutputModel>> GetAllPostsByUserId(string UserId)
         {
