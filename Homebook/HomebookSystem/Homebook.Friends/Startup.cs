@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Homebook.Friends.Data;
 using Homebook.Friends.Services.Friends;
 using Homebook.Infrastructure;
+using Homebook.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,7 +28,7 @@ namespace Homebook.Friends
 
         public void ConfigureServices(IServiceCollection services)
           => services
-              .AddWebService<FriendsDbContext>(this.Configuration)
+              .AddWebService<FriendsDbContext>(this.Configuration)              
               .AddTransient<IFriendsService, FriendsService>();
         //.AddMessaging(this.Configuration);
 

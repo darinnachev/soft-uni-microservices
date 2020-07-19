@@ -33,6 +33,10 @@ namespace Homebook.Identity.Data
 
                     await this.roleManager.CreateAsync(adminRole);
 
+                    adminRole = new IdentityRole(Constants.ClientRoleName);
+
+                    await this.roleManager.CreateAsync(adminRole);
+
                     var adminUser = new User
                     {
                         UserName = "asd@asd.com",
@@ -43,6 +47,31 @@ namespace Homebook.Identity.Data
                     await userManager.CreateAsync(adminUser, "adminpass12");
 
                     await userManager.AddToRoleAsync(adminUser, Constants.AdministratorRoleName);
+
+                    //
+                    var user1 = new User
+                    {
+                        UserName = "user1@abv.bg",
+                        Email = "user1@abv.bg",
+                        SecurityStamp = "stamp"
+                    };
+
+                    await userManager.CreateAsync(user1, "adminpass12");
+
+                    await userManager.AddToRoleAsync(user1, Constants.ClientRoleName);
+
+                    //
+                    var user2 = new User
+                    {
+                        UserName = "user2@abv.bg",
+                        Email = "user2@abv.bg",
+                        SecurityStamp = "stamp"
+                    };
+
+                    await userManager.CreateAsync(user2, "adminpass12");
+
+                    await userManager.AddToRoleAsync(user2, Constants.ClientRoleName);
+
                 })
                 .GetAwaiter()
                 .GetResult();

@@ -11,5 +11,12 @@ namespace Homebook.Infrastructure
 
             return res;
         }
+
+        public static bool IsClient(this ClaimsPrincipal user)
+        {
+            var res = user.IsInRole(ClientRoleName);
+
+            return res;
+        }
     }
 }
